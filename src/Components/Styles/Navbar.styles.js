@@ -7,16 +7,17 @@ export const NavbarContainer = styled.div`
     justify-content: center;
     margin-top: 2rem;
         a { color: blue;
-        font-size: 1rem;
+        font-size: 20px;
         text-decoration: none;
         margin:2rem;
         color:white;
         transition: font-size 0.2s ;
+        font-family: 'Rubik', sans-serif;
         
     }
     a:hover{
         text-decoration: underline;
-        font-size: 20px;
+        font-size: 25px;
         
         
     }
