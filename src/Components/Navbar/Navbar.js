@@ -1,13 +1,19 @@
 import React from 'react'
-import { NavbarContainer } from '../Styles/Navbar.styles'
+import { NavbarContainer, SocialContainer } from '../Styles/Navbar.styles'
 import { Link } from 'react-router-dom'
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export const Navbar = () => {
   return (
     <NavbarContainer>
-            <Link to="/"><li>About Me</li></Link>
-            <Link to="/"><li>Projects</li></Link>
-            <Link to="/"><li>Contact</li></Link>  
+          <SocialContainer>
+            <Link to="/"><GitHubIcon fontSize="large"/></Link>
+            <Link to="/"><LinkedInIcon fontSize="large"/></Link>
+          </SocialContainer>
+        <Link to="/"><li>About Me</li></Link>
+        <Link to="/"><li>Contact</li></Link>  
+        <Link to="/"><li>Projects</li></Link>
     </NavbarContainer>
         
   )

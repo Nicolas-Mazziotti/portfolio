@@ -1,7 +1,7 @@
 //components
-import Header  from './Components/Header/Header';
 import Navbar from './Components/Navbar/Navbar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './Views/Home/Home';
 
 
 
@@ -10,7 +10,9 @@ const App = () => {
     <>
     <Router>
       <Navbar/>
-      <Header/>
+        <Routes>
+            <Route path="/" element={<Home/>}/>
+        </Routes>
     </Router>
     </>
   );
