@@ -11,6 +11,8 @@ export const SkillsContainer = styled.div `
             font-size: 50px;
             color: white;
             letter-spacing: 0.2rem;
+            margin:auto;
+            margin-top: 5rem;
         }
     
 `

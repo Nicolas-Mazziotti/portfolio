@@ -18,9 +18,6 @@ export const NavbarContainer = styled.div`
     a:hover{
         font-weight: bold;
         font-size: 20px;
-        
-        
-        
     }
         li{
             list-style:none;

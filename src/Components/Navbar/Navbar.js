@@ -12,8 +12,8 @@ export const Navbar = () => {
             <Link to="/"><LinkedInIcon fontSize="large"/></Link>
           </SocialContainer>
         <Link to="/"><li>About Me</li></Link>
-        <Link to="/"><li>Contact</li></Link>  
-        <Link to="/"><li>Projects</li></Link>
+        <Link to="/"><li>Projects</li></Link>  
+        <Link to="/"><li>Contact</li></Link>
     </NavbarContainer>
         
   )

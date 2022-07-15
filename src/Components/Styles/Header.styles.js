@@ -8,8 +8,8 @@ export const HeaderContainer = styled.div`
     margin-top: 5rem;
     font-family: 'Poppins', sans-serif;
     img{
-        width: 300px;
-        border-radius: 150px;
+        width: 250px;
+        border-radius: 50px;
     }
 
 `
@@ -19,9 +19,8 @@ export const TitleContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 2rem;
-    line-height: 0px;
+    margin-left: 5rem;
         h6{
-            font-size:50px;
+            font-size:40px;
         }
 `
