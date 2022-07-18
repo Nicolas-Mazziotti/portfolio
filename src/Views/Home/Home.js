@@ -6,9 +6,9 @@ import ItemsContainer from '../../Components/ItemsContainer/ItemsContainer'
 const Home = () => {
   return (
     <>
-    <Header/>
-    <Skills/>
-    <ItemsContainer/>
+        <Header/>
+        <Skills/>
+        <ItemsContainer/>
     </>
   )
 }

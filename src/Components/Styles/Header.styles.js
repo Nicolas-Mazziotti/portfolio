@@ -7,6 +7,7 @@ export const HeaderContainer = styled.div`
     justify-content: center;
     margin-top: 5rem;
     font-family: 'Poppins', sans-serif;
+    line-height:0;
     img{
         width: 250px;
         border-radius: 50px;
@@ -22,5 +23,15 @@ export const TitleContainer = styled.div`
     margin-left: 5rem;
         h6{
             font-size:40px;
+            color:violet;
+            margin:1rem;
+            animation-name: h6;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes h6{
+            from { color:#440be4}
+            to {color: #6f58b0;}
         }
 `
