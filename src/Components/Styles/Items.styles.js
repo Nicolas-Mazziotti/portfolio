@@ -12,7 +12,6 @@ export const Cards = styled.div `
     flex-direction:row;
     justify-content: center;
     heigth: 120px;
-    background-color:grey;
     min-width: 100%;
     
 `
@@ -25,7 +24,6 @@ export const CardsItem = styled.div`
     justify-content:center;
     text-align:center;
     margin: 4rem;
-    border: white solid;
 
 
 `

@@ -9,9 +9,9 @@ export const Navbar = () => {
   return (
     <NavbarContainer>
           <SocialContainer>
-            <Link to="/"><GitHubIcon fontSize="large"/></Link>
-            <Link to="/"><LinkedInIcon fontSize="large"/></Link>
-            <Link to="/"><MailOutlineIcon fontSize="large"/> </Link>
+          <a target="_blank" rel="noreferrer" href="https://github.com/Nicolas-Mazziotti"><GitHubIcon fontSize="large"/></a>
+          <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/nicolas-mazziotti"><LinkedInIcon fontSize="large"/></a>
+          <a target="_blank" rel="noreferrer" href="mailto: nicolas.mazziotti1@gmail.com"><MailOutlineIcon fontSize="large"/></a>
           </SocialContainer>
         <Link to="/"><li>About Me</li></Link>
         <Link to="/"><li>Projects</li></Link>  

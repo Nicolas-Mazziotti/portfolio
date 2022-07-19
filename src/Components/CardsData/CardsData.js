@@ -1,12 +1,14 @@
+
+
 export const CardsData = [
     {
         id:1,
         name: "Xi Celulares",
-        img:'.'
+        img:'./assetsData/xicelulares_project.png',
     },
     {
         id:2,
         name: "Yoga Consciente",
-        img: '.'
+        img: './assetsData/yoga_project.png',
     }
 ]
