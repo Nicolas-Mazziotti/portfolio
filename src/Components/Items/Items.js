@@ -1,37 +1,32 @@
 import React from 'react'
-import { CardsItem } from '../Styles/Items.styles'
+import { CardsItem, CardMedia, LinkButton } from '../Styles/Items.styles'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
+// import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea,CardActions, Button } from '@mui/material';
+
 
 const Items = ({cards}) => {
   return (
     <CardsItem>
-      <Card sx={{ maxWidth: 345 }}>
+      <Card sx={{ maxWidth: 500, backgroundColor: "#262126" }}>
         <CardActionArea>
-          <CardMedia
-            component="img"
-            height="180"
-            image={cards.img}
-            alt="xi-celulares"
-          />
+          <CardMedia>
+            <img src={cards.img} alt ="/"/>
+            </CardMedia>
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              {cards.name}
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              Lorem
+            <Typography variant="body2" color="#f9f5f5">
+              {cards.description}
             </Typography>
           </CardContent>
         </CardActionArea>
         <CardActions>
         <Button size="small" color="primary">
-          Page
+          <LinkButton target="_blank" rel="noreferrer" href={cards.link} alt="Link project page">Page</LinkButton>
         </Button>
         <Button size="small" color="primary">
-          Repository
+        <LinkButton target="_blank" rel="noreferrer" href={cards.repository} alt="Link project page">Repository</LinkButton>
         </Button>
       </CardActions>
     </Card>

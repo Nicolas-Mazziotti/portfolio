@@ -19,6 +19,8 @@ export const SkillsContainer = styled.div `
 export const IconsContainer = styled.div `
         img{
             padding: 1rem;
+            width: 10%;
+            
         }
         img:hover{
             opacity:0.5;

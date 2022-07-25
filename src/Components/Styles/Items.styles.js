@@ -23,7 +23,19 @@ export const CardsTitle = styled.h6 `
 export const CardsItem = styled.div`
     justify-content:center;
     text-align:center;
-    margin: 4rem;
+    margin: 4rem;;
+`
+
+export const CardMedia = styled.div `
+    img{
+        width:500px;
+        max-height: 220px;
+    }
 
 
+`
+
+export const LinkButton = styled.a `
+    text-decoration: none;
+    color: #1976d2;
 `

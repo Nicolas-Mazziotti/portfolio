@@ -8,14 +8,14 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 export const Navbar = () => {
   return (
     <NavbarContainer>
-          <SocialContainer>
+        <SocialContainer>
           <a target="_blank" rel="noreferrer" href="https://github.com/Nicolas-Mazziotti"><GitHubIcon fontSize="large"/></a>
           <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/nicolas-mazziotti"><LinkedInIcon fontSize="large"/></a>
           <a target="_blank" rel="noreferrer" href="mailto: nicolas.mazziotti1@gmail.com"><MailOutlineIcon fontSize="large"/></a>
-          </SocialContainer>
-        <Link to="/"><li>About Me</li></Link>
-        <Link to="/"><li>Projects</li></Link>  
-        <Link to="/"><li>Contact</li></Link>
+        </SocialContainer>
+          <Link to="/"><li>About Me</li></Link>
+          <Link to="/"><li>Projects</li></Link>  
+          <Link to="/"><li>Contact</li></Link>
     </NavbarContainer>
         
   )
