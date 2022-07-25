@@ -5,8 +5,9 @@ import JsIcon from '../../assets/js_icon.png';
 import ReactIcon from '../../assets/react_icon.png';
 import GitIcon from '../../assets/git_icon.png';
 import NodeIcon from '../../assets/node_icon.png'
-
+import html5 from '../../assets/html5-brands.svg'
 import {SkillsContainer, IconsContainer} from '../Styles/Skills.styles'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const Skills = () => {
   
@@ -20,6 +21,8 @@ export const Skills = () => {
             <img src = {ReactIcon} alt =""/>
             <img src = {GitIcon} alt=""/>
             <img src = {NodeIcon} alt=""/>
+            {/* <img src = {html5} alt=""/> */}
+            
           </IconsContainer>
     </SkillsContainer>
   )

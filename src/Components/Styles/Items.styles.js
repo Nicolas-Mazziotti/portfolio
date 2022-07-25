@@ -23,7 +23,13 @@ export const CardsTitle = styled.h6 `
 export const CardsItem = styled.div`
     justify-content:center;
     text-align:center;
-    margin: 4rem;;
+    margin: 4rem;
+    
+    
+        &:hover{
+            transition: box-shadow 0.2s;
+            box-shadow: 0px 5px 10px grey;  
+        }
 `
 
 export const CardMedia = styled.div `

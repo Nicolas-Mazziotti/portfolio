@@ -13,10 +13,10 @@ const Items = ({cards}) => {
       <Card sx={{ maxWidth: 500, backgroundColor: "#262126" }}>
         <CardActionArea>
           <CardMedia>
-            <img src={cards.img} alt ="/"/>
+            <a target="_blank" rel="noreferrer" href={cards.link} alt="Link project Page"><img src={cards.img} alt ="/"/></a>
             </CardMedia>
-          <CardContent>
-            <Typography variant="body2" color="#f9f5f5">
+          <CardContent sx={{ cursor: "default"}}>
+            <Typography variant="body2" color="#f9f5f5" >
               {cards.description}
             </Typography>
           </CardContent>

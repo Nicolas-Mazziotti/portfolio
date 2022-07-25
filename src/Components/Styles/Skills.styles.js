@@ -20,9 +20,10 @@ export const IconsContainer = styled.div `
         img{
             padding: 1rem;
             width: 10%;
-            
+            opacity:0.5;
+
         }
         img:hover{
-            opacity:0.5;
+            opacity:1;
         }
 `

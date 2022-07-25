@@ -11,6 +11,15 @@ export const HeaderContainer = styled.div`
     img{
         width: 250px;
         border-radius: 50px;
+        transform: rotateY(360deg);
+        animation-name: img;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-direction:alternate;
+    }
+    @keyframes img {
+        from{ transform: rotateY(90deg)}
+        to {transform: rotateY(180deg)}
     }
 
 `
