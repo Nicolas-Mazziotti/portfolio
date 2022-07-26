@@ -7,14 +7,14 @@ import Home from './Views/Home/Home';
 
 const App = () => {
   return (
-    <>
+    <div>
     <Router>
       <Navbar/>
         <Routes>
             <Route path="/" element={<Home/>}/>
         </Routes>
     </Router>
-    </>
+    </div>
   );
 }
 
