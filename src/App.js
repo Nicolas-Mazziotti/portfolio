@@ -1,6 +1,6 @@
 //components
 import Navbar from './Components/Navbar/Navbar';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Views/Home/Home';
 
 
@@ -11,7 +11,7 @@ const App = () => {
     <Router>
       <Navbar/>
         <Routes>
-            <Route path="/portfolio" element={<Home/>}/>
+            <Route path="/" element={<Home/>}/>
         </Routes>
     </Router>
     </div>
