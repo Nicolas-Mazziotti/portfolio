@@ -17,7 +17,7 @@ const ItemsContainer = () => {
     })
 
   return (
-    <CardsContainer>
+    <CardsContainer id="portfolio">
         <CardsTitle>Portfolio</CardsTitle>
         <Cards>
         {cards.map ((item) => {

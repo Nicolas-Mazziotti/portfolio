@@ -12,8 +12,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export const Skills = () => {
   
   return (
-    <SkillsContainer>
-        <h6>Skills</h6>
+    <SkillsContainer id="skills">
+        <h6 id="aboutMe">Skills</h6>
           <IconsContainer>
             <img src = {HtmlIcon} alt=""/>
             <img src = {CssIcon} alt =""/>
@@ -21,7 +21,6 @@ export const Skills = () => {
             <img src = {ReactIcon} alt =""/>
             <img src = {GitIcon} alt=""/>
             <img src = {NodeIcon} alt=""/>
-            {/* <img src = {html5} alt=""/> */}
             
           </IconsContainer>
     </SkillsContainer>
