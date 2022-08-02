@@ -1,6 +1,5 @@
-import React from 'react'
-import { NavbarContainer, SocialContainer } from '../Styles/Navbar.styles'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { NavbarContainer, SocialContainer } from '../Styles/Navbar.styles';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
