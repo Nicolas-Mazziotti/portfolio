@@ -6,7 +6,7 @@ export const CardsData = [
         name: "Xi Celulares",
         img:'/portfolio/assetsData/xicelulares_project.png',
         description: 'Website made it with React and Firebase as Database',
-        link: "/",
+        link: "https://nicolas-mazziotti.github.io/xicelulares-Mazziotti",
         repository:'https://github.com/Nicolas-Mazziotti/xicelulares-Mazziotti'
     },
     {
