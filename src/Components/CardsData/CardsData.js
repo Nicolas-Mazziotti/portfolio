@@ -14,7 +14,7 @@ export const CardsData = [
         name: "Yoga Consciente",
         img: '/portfolio/assetsData/yoga_project.png',
         description: 'Website made it with HTML and SASS',
-        link: "https://nicolas-mazziotti.github.io/Proyecto-Final-Yoga-Consciente/",
-        repository: 'https://nicolas-mazziotti.github.io/yoga-consciente/'
+        link: "https://nicolas-mazziotti.github.io/yoga-consciente/",
+        repository: 'https://github.com/Nicolas-Mazziotti/yoga-consciente.git/'
     }
 ]

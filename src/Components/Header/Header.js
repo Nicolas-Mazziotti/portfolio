@@ -6,7 +6,7 @@ export const Header = () => {
     <HeaderContainer>
         <img src={ProfilePhoto} alt=""/>
         <TitleContainer>
-        <p>Hello i'm</p>
+        <p>Hello I'm</p>
         <h6>Nicolas Mazziotti</h6>
         <p>A Front-End Web Developer</p>
         </TitleContainer>
