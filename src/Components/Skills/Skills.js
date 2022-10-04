@@ -19,8 +19,7 @@ export const Skills = () => {
             <img src = {JsIcon} alt = ""/>
             <img src = {ReactIcon} alt =""/>
             <img src = {GitIcon} alt=""/>
-            <img src = {NodeIcon} alt=""/>
-            
+            <img src = {NodeIcon} alt=""/>      
           </IconsContainer>
     </SkillsContainer>
   )
