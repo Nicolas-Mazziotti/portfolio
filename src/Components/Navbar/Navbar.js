@@ -16,7 +16,7 @@ export const Navbar = () => {
         </SocialContainer>
           <HashLink to="#skills"><li>Skills</li></HashLink>
           <HashLink to="#portfolio"><li>Projects</li></HashLink>  
-          <HashLink to=""><li>Contact</li></HashLink>
+          <HashLink to="#contact"><li>Contact</li></HashLink>
     </NavbarContainer>
         
   )

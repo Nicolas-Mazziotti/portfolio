@@ -3,10 +3,13 @@ body {
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:	#181818;
+  background:	
+  linear-gradient(-45deg, rgb(92, 30, 150) 50%, black 50%)
 }
+
 
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    #181818;
 } */

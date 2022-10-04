@@ -5,7 +5,7 @@ const Contact = () => {
 
 
     return (
-        <ContactContainer>
+        <ContactContainer id="contact">
             <ImgContainer>
                 <img src= {SendIcon} alt='Send Icon'/>
             </ImgContainer>
