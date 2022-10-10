@@ -3,6 +3,7 @@ import Items from '../Items/Items'
 import { CardsData } from '../CardsData/CardsData'
 import { CardsContainer, CardsTitle, Cards } from '../Styles/Items.styles'
 
+
 const ItemsContainer = () => {
     const[cards, setCards] = useState([])
 
@@ -17,7 +18,7 @@ const ItemsContainer = () => {
     })
 
   return (
-    <CardsContainer id="portfolio">
+    <CardsContainer id="portfolio" className='container-fluid'>
         <CardsTitle>Portfolio</CardsTitle>
         <Cards>
         {cards.map ((item) => {
@@ -25,6 +26,7 @@ const ItemsContainer = () => {
         )})}
         </Cards>
     </CardsContainer>
+
   )
 }
 

@@ -22,6 +22,10 @@ export const NavbarContainer = styled.div`
         li{
             list-style:none;
         }
+
+        @media only screen and (max-width: 768px) {
+            justify-content:end;
+          }
 `
 
 export const SocialContainer = styled.div `

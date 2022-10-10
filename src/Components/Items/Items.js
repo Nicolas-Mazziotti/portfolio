@@ -10,10 +10,10 @@ import { CardActionArea,CardActions, Button } from '@mui/material';
 const Items = ({cards}) => {
   return (
     <CardsItem>
-      <Card sx={{ maxWidth: 500, backgroundColor: "#262126" }}>
+      <Card sx={{ maxWidth: 500, backgroundColor: "#262126", margin:"auto"}}>
         <CardActionArea>
           <CardMedia>
-            <a target="_blank" rel="noreferrer" href={cards.link} alt="Link project Page"><img src={cards.img} alt ="/"/></a>
+            <a target="_blank" rel="noreferrer" href={cards.link} alt="Link project Page"><img className='img-fluid' src={cards.img} alt ="/"/></a>
             </CardMedia>
           <CardContent sx={{ cursor: "default"}}>
             <Typography variant="body2" color="#f9f5f5" >

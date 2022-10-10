@@ -17,12 +17,26 @@ export const SkillsContainer = styled.div `
     
 `
 export const IconsContainer = styled.div `
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        div{
+            text-align:center;
+            margin:1rem;
+        }
         img{
             padding: 1rem;
-            width: 10%; 
-
+            width: 10%;
+        }
+        p{
+            color:white;
         }
         img:hover{
             opacity:0.5;
+        }
+
+        @media only screen and (max-width:768px) {
+            display:grid;
+            grid-template-columns: repeat(1, 2fr);
         }
 `

@@ -10,9 +10,9 @@ export const CardsContainer = styled.div `
 export const Cards = styled.div `
     display:flex;
     flex-direction:row;
+    flex-wrap:wrap;
     justify-content: center;
     heigth: 120px;
-    min-width: 100%;
     
 `
 
@@ -24,6 +24,7 @@ export const CardsItem = styled.div`
     justify-content:center;
     text-align:center;
     margin: 4rem;
+    
     
     
         &:hover{

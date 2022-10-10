@@ -1,6 +1,6 @@
 import React from 'react'
 import { HeaderContainer, TitleContainer } from '../Styles/Header.styles'
-import ProfilePhoto from "../../assets/profile_photo.jpg"
+import ProfilePhoto from "../../assets/header_photo.png"
 export const Header = () => {
   return (
     <HeaderContainer>

@@ -14,12 +14,31 @@ export const Skills = () => {
     <SkillsContainer id="skills">
         <h6 id="aboutMe">Skills</h6>
           <IconsContainer>
+            <div>
             <img src = {HtmlIcon} alt=""/>
+            <p>HTML5</p>
+            </div>
+            <div>
             <img src = {CssIcon} alt =""/>
+            <p>CSS3</p>
+            </div>
+            <div>
             <img src = {JsIcon} alt = ""/>
+            <p>Javascript</p>
+            </div>
+            <div>
             <img src = {ReactIcon} alt =""/>
+            <p>React</p>
+            </div>
+            <div>
             <img src = {GitIcon} alt=""/>
-            <img src = {NodeIcon} alt=""/>      
+            <p>Github</p>
+            </div>
+            <div>
+            <img src = {NodeIcon} alt=""/>
+            <p>Node.js</p>
+            </div>
+                  
           </IconsContainer>
     </SkillsContainer>
   )

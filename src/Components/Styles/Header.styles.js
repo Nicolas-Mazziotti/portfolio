@@ -6,11 +6,18 @@ export const HeaderContainer = styled.div`
     flex-direction: row;
     justify-content: center;
     margin-top: 5rem;
-    font-family: 'Poppins', sans-serif;
     line-height:0;
     img{
         width: 250px;
         border-radius: 50px;
+    }
+    @media only screen and (max-width: 768px){
+            flex-direction: column-reverse;
+            align-items: center;
+                img{
+                    margin-top: 2rem;
+                }
+        }
 `
 
 export const TitleContainer = styled.div`
@@ -19,6 +26,7 @@ export const TitleContainer = styled.div`
     justify-content: center;
     align-items: center;
     margin-left: 5rem;
+    gap: 2rem;
         h6{
             font-size:40px;
             color:violet;
@@ -32,4 +40,10 @@ export const TitleContainer = styled.div`
             from { color:#440be4}
             to {color: #6f58b0;}
         }
+
+        @media only screen and (max-width: 768px){
+            gap:2rem;
+            margin: auto;
+        }
+
 `
