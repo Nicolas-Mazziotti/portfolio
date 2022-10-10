@@ -35,7 +35,7 @@ export const IconsContainer = styled.div `
             opacity:0.5;
         }
 
-        @media only screen and (max-width:768px) {
+        @media all and (max-width:768px) {
             display:grid;
             grid-template-columns: repeat(1, 2fr);
         }
