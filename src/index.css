@@ -4,8 +4,8 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  min-width:fit-content;
 }
+
 
 body {
   margin: 0;
@@ -14,6 +14,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background:	
   linear-gradient(-45deg, rgb(92, 30, 150) 50%, black 50%);
+}
+
+@media all and (max-width: 768px) {
+  body {
+    background:	
+    linear-gradient(-45deg, rgb(92, 30, 150) 70%, black 30%);
+  }
 }
 
 

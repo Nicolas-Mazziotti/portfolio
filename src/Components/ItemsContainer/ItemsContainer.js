@@ -20,7 +20,7 @@ const ItemsContainer = () => {
   return (
     <CardsContainer id="portfolio" className='container-fluid'>
         <CardsTitle>Portfolio</CardsTitle>
-        <Cards>
+        <Cards className='row col-md-12'>
         {cards.map ((item) => {
             return (<Items cards= {item} key={item.id}/>
         )})}

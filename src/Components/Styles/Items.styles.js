@@ -8,12 +8,19 @@ export const CardsContainer = styled.div `
     color: white;
 `
 export const Cards = styled.div `
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
     justify-content: center;
     heigth: 120px;
     
+    @media only screen and (max-width: 1440px) {
+        width: 100vh;
+        heigth: 100vh;
+        }
+    @media only screen and (max-width: 768px) {
+        width: 70vh;
+        }
+        @media only screen and (max-width: 425px) {
+            width: 50vh;
+            }
 `
 
 export const CardsTitle = styled.h6 `
@@ -24,13 +31,16 @@ export const CardsItem = styled.div`
     justify-content:center;
     text-align:center;
     margin: 4rem;
-    
+    padding: 0;
+    background-color: rgb(145 70 255);
     
     
         &:hover{
             transition: box-shadow 0.2s;
             box-shadow: 0px 5px 10px grey;  
         }
+    
+
 `
 
 export const CardMedia = styled.div `

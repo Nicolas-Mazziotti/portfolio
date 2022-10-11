@@ -26,7 +26,6 @@ export const IconsContainer = styled.div `
         }
         img{
             padding: 1rem;
-            width: 10%;
         }
         p{
             color:white;
@@ -35,7 +34,7 @@ export const IconsContainer = styled.div `
             opacity:0.5;
         }
 
-        @media all and (max-width:768px) {
+        @media all and (max-width:425px) {
             display:grid;
             grid-template-columns: repeat(1, 2fr);
         }

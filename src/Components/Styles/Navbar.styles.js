@@ -4,6 +4,7 @@ export const NavbarContainer = styled.div`
     color: white;
     display:flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
     margin-top: 2rem;
         a { color: blue;
@@ -23,8 +24,11 @@ export const NavbarContainer = styled.div`
             list-style:none;
         }
 
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 425px) {
             justify-content:end;
+                li{
+                    font-size: 15px;
+                }
           }
 `
 
@@ -37,9 +41,12 @@ export const SocialContainer = styled.div `
                 margin:auto;
                 padding: 0.5rem
             }
+   
+`
 
-            
-        
+export const NavbarItems = styled.div `
+            display:flex;
+            flex-direction: row;
 `
 
 

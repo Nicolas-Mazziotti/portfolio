@@ -35,6 +35,10 @@ export const TitleContainer = styled.div`
             animation-duration: 1s;
             animation-iteration-count: infinite;
             animation-direction: alternate;
+
+            @media all and (max-width: 425px){
+                font-size: 30px;
+            }
         }
         @keyframes h6{
             from { color:#440be4}
