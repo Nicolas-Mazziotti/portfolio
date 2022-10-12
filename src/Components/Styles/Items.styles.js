@@ -19,7 +19,7 @@ export const Cards = styled.div `
         width: 70vh;
         }
         @media only screen and (max-width: 425px) {
-            width: 50vh;
+            width: 45vh;
             }
 `
 
