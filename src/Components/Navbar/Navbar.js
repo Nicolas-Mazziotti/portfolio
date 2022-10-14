@@ -4,7 +4,6 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import { HashLink } from 'react-router-hash-link';
-import { Container } from '@mui/material';
 
 
 export const Navbar = () => {
