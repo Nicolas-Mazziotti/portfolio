@@ -25,12 +25,13 @@ export const TitleContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 5rem;
-    gap: 2rem;
-        h6{
+    margin-left: 7rem;
+    gap: 7rem;
+
+        span{
             font-size:40px;
             color:violet;
-            margin:1rem;
+            margin:0rem;
             animation-name: h6;
             animation-duration: 1s;
             animation-iteration-count: infinite;
@@ -39,6 +40,7 @@ export const TitleContainer = styled.div`
             @media all and (max-width: 425px){
                 font-size: 30px;
             }
+
         }
         @keyframes h6{
             from { color:#440be4}
@@ -46,7 +48,7 @@ export const TitleContainer = styled.div`
         }
 
         @media all and (max-width: 768px){
-            gap:2rem;
+            gap:5rem;
             margin: auto;
         }
 
