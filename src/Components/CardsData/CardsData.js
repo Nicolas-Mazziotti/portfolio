@@ -16,5 +16,13 @@ export const CardsData = [
         description: 'Website made it with HTML and SASS',
         link: "https://nicolas-mazziotti.github.io/yoga-consciente/",
         repository: 'https://github.com/Nicolas-Mazziotti/yoga-consciente.git/'
+    },
+    {
+        id:3,
+        name: "Rick and Morty API",
+        img: '/portfolio/assetsData/rick_and_morty_project.png',
+        description: 'Website made it with HTML, CSS and JavaScript consuming an API',
+        link: "https://nicolas-mazziotti.github.io/getApi/",
+        repository: 'https://github.com/Nicolas-Mazziotti/getApi.git'
     }
 ]

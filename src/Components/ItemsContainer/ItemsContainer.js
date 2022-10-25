@@ -13,7 +13,7 @@ const ItemsContainer = () => {
         })
         promiseCards.then((res) => {
             setCards(res)
-            console.log(res)
+            
     })   
     })
 

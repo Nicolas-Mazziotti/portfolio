@@ -30,6 +30,7 @@ export const TitleContainer = styled.div`
 
         span{
             font-size:40px;
+            font-weight:bold;
             color:violet;
             margin:0rem;
             animation-name: h6;
