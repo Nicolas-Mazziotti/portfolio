@@ -11,7 +11,7 @@ export const Cards = styled.div `
     justify-content: center;
     heigth: 120px;
     
-    @media only screen and (max-width: 2560px) {
+    @media only screen and (min-width: 798px) {
         width: 100vh;
         }
     @media only screen and (max-width: 768px) {

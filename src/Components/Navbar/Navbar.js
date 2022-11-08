@@ -9,11 +9,11 @@ import { HashLink } from 'react-router-hash-link';
 export const Navbar = () => {
   return (
     <NavbarContainer>
-        <SocialContainer>
+        {/* <SocialContainer>
           <a target="_blank" rel="noreferrer" href="https://github.com/Nicolas-Mazziotti"><GitHubIcon fontSize="large"/></a>
           <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/nicolas-mazziotti"><LinkedInIcon fontSize="large"/></a>
           <a target="_blank" rel="noreferrer" href="mailto: nicolas.mazziotti1@gmail.com"><MailOutlineIcon fontSize="large"/></a>
-        </SocialContainer>
+        </SocialContainer> */}
         <NavbarItems>
           <HashLink to="#skills"><li>Skills</li></HashLink>
           <HashLink to="#portfolio"><li>Projects</li></HashLink>  
