@@ -32,17 +32,17 @@ export const NavbarContainer = styled.div`
           }
 `
 
-export const SocialContainer = styled.div `
-        display:flex;
-        flex-direction: column;
-        position: fixed;
-        left: 5%;
-            a{
-                margin:auto;
-                padding: 0.5rem
-            }
+// export const SocialContainer = styled.div `
+//         display:flex;
+//         flex-direction: column;
+//         position: fixed;
+//         left: 5%;
+//             a{
+//                 margin:auto;
+//                 padding: 0.5rem
+//             }
    
-`
+// `
 
 export const NavbarItems = styled.div `
             display:flex;
